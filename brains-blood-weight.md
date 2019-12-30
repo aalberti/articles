@@ -1,4 +1,4 @@
-#Blood weight
+#Brains blood weight
 
 Mental models are how you think about the world. Some are very useful to me, like cynefin, lean, Wardley maps, TDD, DDD, John Cutler's product management view...
 Some are too simplistic to be applicable in a realistic context, like the test pyramid, scrum, SAFe, or the SOLID principles.
@@ -31,7 +31,10 @@ This is what a mental model is: a simplification of the world.
 This is why all models are wrong, but some are useful.
 Anyway, when we add new rules, we need to get rid, or factor in, older ones.
 This is unlearning. It is necessary, it is a continuous process, and it feels good by decreasing your brains blood weight.
-You don't want to become your grumpy old uncle, who always yells about how the world was better back in the days. Brains blood weight makes you tired and grumpy.
+You don't want to become your grumpy old uncle, always complaining about how the world was better back in the days.
+Living in a world that doesn't fit your mental models makes you fill in the gap.
+Filling in the increases your brains blood weight.
+Brains blood weight makes you tired and grumpy.
 
 As you can see, in this article, I simplified the world of mental models in order to make sense of them.
 Is this mental model of mental models simplistic? So far it doesn't feel so to me.
