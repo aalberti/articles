@@ -1,4 +1,4 @@
-#Turn animal into turtles, all the way
+#Turtles rule, all the way
 
 Mental models help you take decisions when they fit the reality you're facing.
 Many models are too simple to match enough situations.
@@ -51,7 +51,7 @@ The agile manifesto, for example, separates:
 You could go on and on. The thing is, the more you derive rules within a context, the more you become context dependant.
 It appears that the practises already have a hard time standing the test of time, and the values can still be considered valid in some organization, and even revolutionary in many others.
 
-For example, roadmapping often has different granularities of things to do.
+For example, roadmapping includes different granularities of things to do.
 Jira short sighted users use tasks, then stories, then epics, because they are Jira default categories.
 They generally don't differentiate these categories, and blindly use what jira offers them out of the box.
 While it's a bad idea to use tools without understanding them in the long term, it's true that you can have a general rule to define a category, from the corporate strategy, or even values, to the task in a todo list.
