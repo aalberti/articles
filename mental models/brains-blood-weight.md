@@ -1,6 +1,6 @@
 #Brains blood weight
 
-Mental models are how you think about the world. Some are very useful to me, like cynefin, lean, Wardley maps, TDD, DDD, John Cutler's product management view...
+Mental models are how you think about the world. Some are very useful to me, like cynefin, [lean](https://planet-lean.com/), [Wardley maps](https://medium.com/wardleymaps), TDD, DDD, [John Cutler's product management view](https://medium.com/@johnpcutler)...
 Some are too simplistic to be applicable in a realistic context, like the test pyramid, scrum, SAFe, or the SOLID principles.
 Simplistic models are useful for talking and giving an entry point into a subject matter, but not as a guideline to take decisions in most concrete situations.
 
@@ -46,7 +46,7 @@ To some extent, I unlearn my existing mental models to adopt a new one in the fa
 Unlearning happens all the time. There are a few fundamental limitations that make humanity what it is.
 Our lifespan and the weak points of our body (and now our planet), and the amount of info one can process in their brains.
 In order to make sense of the world, we reduce its complexity to a few simple rules.
-This is what a mental model is, by the way. A simplification of the world. And this is why all models are wrong, but some are useful.
+This is what a mental model is, by the way. A simplification of the world. And this is why [all models are wrong, but some are useful(https://en.wikipedia.org/wiki/All_models_are_wrong).
 Anyway, when we add new rules, we need to get rid, or factor in, older ones, because tiny brains.
 This is unlearning. It is necessary, it is a continuous process, and it feels good by decreasing your brains blood weight.
 
