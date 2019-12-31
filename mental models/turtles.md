@@ -67,36 +67,38 @@ You want to find the right tradeoff, for each test, between:
 - And many more properties like these.
 
 For a given category of tests of a given module, you will find the right tradeoff of good practises.
-This tradeoff allows you to run tests within a range of values for each of these properties.
+This tradeoff allows you to run tests within a range of values for each of the aforementioned properties.
 In the multidimensional space of tests properties, you get a bubble, corresponding to a set of practises.
 If you generalize this, you will get one bubble for each test category of each module.
 
-For some tests, you may mock/stub/fake these and those libraries. For other modules, you may prefer using their real implementations.
-For this feature, you want to smoke test the end-to-end plumbing, while randomly generating edge cases at 5000 tests per second by testing some independent sub-sub domain library.
+For example, for some tests, you may mock/stub/fake this or that library. For other tests, you may prefer using their real implementations.
+For this feature, you want to smoke test the end-to-end plumbing, while randomly generating edge cases at 5000 tests per second, by testing one independent sub-sub domain library.
 It depends.
 
-In a simple system, you might be able to call bubbles of good practises unit, inetgration, system, service, UI, or end-to-end tests, in a way that makes sense to you across all your modules.
+In a simple system, you might be able to call bubbles of practises unit, inetgration, system, service, UI, or end-to-end tests, in a way that makes sense to you across all your modules.
 In more complex systems, what you call a unit test is totally different from one module to the other.
 
 In addition, like all systems, architecture is nested.
 The integration testing of a system is the unit testing of a higher level one.
 
-When you code, in any language, there is a likely chance that you use the addition of two integers.
-The addition is part of the system you're coding, even if it's embedded via a language API.
-But you don't unit test it. You use it as if it worked the way you intend it to.
+For example, when you code, there is a likely chance you will use the addition of two integers.
+The addition is part of the system you're coding, even if it's embedded via the language.
+But you don't unit test it. You use it as if it worked the way you expect.
 Still, some people tested it.
 At the hardware level, you might even consider they ran integration tests on it, embedding CPU level cache invalidation and so on.
+And you probably test it indirectly, either by integration tests, or what you call naively unit tests.
 
 If you label layers of testing differently, you will need to:
 - Enumerate different properties for each layer.
-- Have different sets of good practises for each layer.
-- More importantly, come up with one category per layer you encounter.
+- Have different sets of practises and tools for each layer.
+- Come up with one category per layer you encounter.
 But you don't know how many layers of testing you will need to come up with.
-You'll discover how many layers you need along the way.
-And as we saw before, the different categories of testing you will come up with are not even hierarchical layers, but a graph of stuff more or less related by common properties, tools, or practises.
+You'll discover that along the way.
+And as we saw before, the different categories of testing you will come up with are not even hierarchical layers, but a graph of bubbles more or less related by common properties, tools, or practises.
 
 I prefer sticking to the fuzzy notion of bubbles of properties, tools, and practises.
-I adapt this concept to each context, by searching and naming bubbles, and explaining how to use them to the rest of the team.
+I adapt this concept to each context, by searching, naming, and describing bubbles.
+Oh, and having a set of bubbles already defined for a given product doesn't restrict you from coming up with new ones when it can help.
 
 ##Conclusion
 
