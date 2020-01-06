@@ -1,5 +1,11 @@
 #Brains blood weight
 
+I recently found a view of the world that felt more relaxing.
+Saying science **explains** the universe always felt wrong, because when I thought that, I always had an example where I wanted to ask another why.
+Take gravity for example. Saying we fall down because masses attract each other is OK... but why FFS?
+And now you're telling me that big events in the universe bend gravity?
+Instead, I now consider that science **predicts** or **describes** events in a broader and broader context, and suddenly, my brains feel lighter.
+
 Mental models are how you think about the world. Some are very useful to me, like cynefin, [lean](https://planet-lean.com/), [Wardley maps](https://medium.com/wardleymaps), TDD, DDD, [John Cutler's product management view](https://medium.com/@johnpcutler)...
 Some are too simplistic to be applicable in a realistic context, like the test pyramid, scrum, SAFe, or the SOLID principles.
 Simplistic models are useful for talking and giving an entry point into a subject matter, but not as a guideline to take decisions in most concrete situations.
@@ -13,13 +19,8 @@ When I'm using the right mental model, I feel more relaxed.
 On the other hand, when I need to bend reality to fit a model, I feel more panic, more pressure in my head.
 I call this brains blood weight.
 The more blood I need in my head to make sense of something, the more tired I am.
-To illustrate this, I recently found a view of the world that felt more relaxing.
-Saying science **explains** the universe always felt wrong, because when I thought that, I always had an example where I wanted to ask another why.
-Take gravity for example. Saying we fall down because masses attract each other is OK... but why FFS?
-And now you're telling me that big events in the universe bend gravity?
-Instead, I now consider that science **predicts** events in a broader and broader context, and suddenly, my brains feel lighter.
 
-To make it more work related, take scrum and lean.
+Take scrum and lean, for example.
 I spent years understanding eath of them.
 Both are difficult. Both were useful to me, at least to help me adapt my view of the world.
 However, scrum now feels like trying to horseshoe reality into an arbitrary framework.
@@ -45,14 +46,14 @@ To some extent, I unlearn my existing mental models to adopt a new one in the fa
 
 Unlearning happens all the time. There are a few fundamental limitations that make humanity what it is.
 Our lifespan and the weak points of our body (and now our planet), and the amount of info one can process in their brains.
-In order to make sense of the world, we reduce its complexity to a few simple rules.
+Because our brains are tiny, we reduce the world's complexity to a few simple rules. Otherwise we couldn't make sense of it.
 This is what a mental model is, by the way. A simplification of the world. And this is why [all models are wrong, but some are useful(https://en.wikipedia.org/wiki/All_models_are_wrong).
 Anyway, when we add new rules, we need to get rid, or factor in, older ones, because tiny brains.
 This is unlearning. It is necessary, it is a continuous process, and it feels good by decreasing your brains blood weight.
 
 As you can see in this article, I simplified the world of mental models in order to make sense of them.
 Is this mental model of mental models simplistic? So far it doesn't feel so to me. It probably is simplistic to someone else.
-It might become simplistic to me, when I encounter more concrete situations that don't fit this model, and that I need to make sense of.
-Is it useful to adapt my mental models to real life? Definitely.
-Is it helpful for real life situations? I can feel it helping me learn new things, so yes.
+It might become simplistic to me, when I encounter more concrete situations that don't fit this model, but that I need to make sense of anyway.
+Does it help me adapt my mental models to real life? Definitely.
+Does it help me in real life situations? I can feel it helping me learn new things, so yes.
 Can I measure it? Definitely not. It's totally subjective, and evolves with time.
