@@ -5,7 +5,7 @@ Many models are too simple to match enough situations.
 
 Many models describe nested systems.
 In some of them, the nested layers each have a name, and are described independently.
-When you each layer, your categorization becomes hard to adapt.
+When you name each layer, your categorization becomes hard to adapt.
 You want to explain the characteristics of layers by keeping them as adaptable to the context as possible.
 The more situations you face, the more you incorporate them to your model by making characteristics more generic.
 It's like in TDD with emergent design: [the more specific your testing code is, the more generic your production code becomes](https://sites.google.com/site/unclebobconsultingllc/home/articles/as-the-tests-get-more-specific-the-code-gets-more-generic).
@@ -18,7 +18,7 @@ The agile manifesto, for example, separates:
 - principles, directly derivated from values within the context the authors knew at the time.
 - practises, derivated from principles
 You could go on and on. The thing is, the more you derive rules within a context, the more you become context dependant.
-It appears that the practises already have a hard time standing the test of time, while the values can still be considered valid in some organization, and even revolutionary in many others.
+It appears that the practises already have a hard time standing the test of time, while agile values can still be considered valid in some organization, and even revolutionary in many others.
 You can consider agile values as an abstraction of agile principles. Principles are an instantiation of the values in a given context. You can use the values to reason about the situation in a wider range of contexts. And you need the principles to guide you in your concrete context.
 
 Let's dive into some examples.
@@ -56,7 +56,7 @@ Then you can derive these rules for the context of each loop.
 The [test pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) originally assumes that you have 3 layers (unit, service, UI).
 Some adapt their test pyramid to their vocabulary, adding or renaming layers.
 Anyway, as soon as your system becomes just a little bit complex, the reality becomes more nuanced than that.
-You end up with separate modules (microservices?), each having several layers.
+You end up with separate modules (microservices? Kidding), each having several layers.
 
 You want to find the right tradeoff, for each test, between:
 - Realism: If the test passes, the corresponding use case will work end-to-end in production.
@@ -86,7 +86,7 @@ The addition is part of the system you're coding, even if it's embedded via the 
 But you don't unit test it. You use it as if it worked the way you expect.
 Still, some people tested it.
 At the hardware level, you might even consider they ran integration tests on it, embedding CPU level cache invalidation and so on.
-And you probably test it indirectly, either by integration tests, or what you call naively unit tests.
+And you probably test it indirectly, either by integration tests, or what you naively call unit tests.
 
 If you label layers of testing differently, you will need to:
 - Enumerate different properties for each layer.
@@ -102,6 +102,10 @@ Oh, and having a set of bubbles already defined for a given product doesn't rest
 
 ##Conclusion
 
+Thinking about nested systems as independent layers can help you discover a new topic by giving you concrete cases.
+However, you may quickly realize that these hardoded layers need to evolve to match you context.  
 When you can generalize a categorization, you can reason in a unified way about an activity.
-It's easier for you to have a common ground at a high level, while being able to zoom in when required.
+You don't want to merge all nested systems in a single description.
+That would be fractal, and it would be a very simplistic view of the universe.
+You want to make your life easier, having a common ground at a high level, while being able to zoom in when required.
 Abstracting a set of categories decreases you brains blood weight.
