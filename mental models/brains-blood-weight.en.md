@@ -4,6 +4,7 @@ I recently found a view of the world that felt more relaxing.
 Saying science **explains** the universe always felt wrong, because when I thought that, I always had an example where I wanted to ask another why.
 Take gravity for example. Saying we fall down because masses attract each other is OK... but why FFS?
 And now you're telling me that big events in the universe bend gravity?
+I don't take trickier magic trick as an explanation for another magic trick.
 Instead, I now consider that science **predicts** or **describes** events in a broader and broader context, and suddenly, my brains feel lighter.
 
 Mental models are how you think about the world. Some are very useful to me, like cynefin, [lean](https://planet-lean.com/), [Wardley maps](https://medium.com/wardleymaps), TDD, DDD, [John Cutler's product management view](https://medium.com/@johnpcutler)...
