@@ -4,12 +4,12 @@ Mental models help you take decisions when they fit the reality you're facing.
 Many models are too simple to match enough situations.
 
 Many models describe nested systems.
-In some of them, the nested layers each have a name, and are described independently.
+In some of them, the nested systems each have a name, and are described independently.
+You want to explain the characteristics of systems by keeping them as adaptable to the context as possible.
 When you name each layer, your categorization becomes hard to adapt.
-You want to explain the characteristics of layers by keeping them as adaptable to the context as possible.
 The more situations you face, the more you incorporate them to your model by making characteristics more generic.
 It's like in TDD with emergent design: [the more specific your testing code is, the more generic your production code becomes](https://sites.google.com/site/unclebobconsultingllc/home/articles/as-the-tests-get-more-specific-the-code-gets-more-generic).
-Cyrille Martraire talks about [raising the water line](https://youtu.be/svh_NxbOJV8), from theory to conciseness, and links this to laziness (which is good).
+Cyrille Martraire talks about [raising the water line](https://youtu.be/svh_NxbOJV8), from theory to conciseness, and links this to laziness (which is good for an engineer).
 Like code refactoring, it's not easy.
 It supposes you incorporate the different characteristics of layers into a common vocabulary that makes sense.
 
@@ -75,8 +75,8 @@ For example, for some tests, you may mock/stub/fake this or that library. For ot
 For this feature, you want to smoke test the end-to-end plumbing, while randomly generating edge cases at 5000 tests per second, by testing one independent sub-sub domain library.
 It depends.
 
-In a simple system, you might be able to call bubbles of practises unit, inetgration, system, service, UI, or end-to-end tests, in a way that makes sense to you across all your modules.
-In more complex systems, what you call a unit test is totally different from one module to the other.
+In a simple system, you might be able to call bubbles of practises unit, integration, system, service, UI, or end-to-end tests, in a way that makes sense to you across all your modules.
+In more complex systems (for example a polyglot one), what you call a unit test is totally different from one module to the other.
 
 In addition, like all systems, architecture is nested.
 The integration testing of a system is the unit testing of a higher level one.
@@ -94,16 +94,17 @@ If you label layers of testing differently, you will need to:
 - Come up with one category per layer you encounter.
 But you don't know how many layers of testing you will need to come up with.
 You'll discover that along the way.
-And as we saw before, the different categories of testing you will come up with are not even hierarchical layers, but a graph of bubbles more or less related by common properties, tools, or practises.
+And anyway, the different categories of testing you will come up with are not even hierarchical layers, but a graph of bubbles more or less related by common properties, tools, or practises.
 
 I prefer sticking to the fuzzy notion of bubbles of properties, tools, and practises.
 I adapt this concept to each context, by searching, naming, and describing bubbles.
+It prevents me from bending reality to fit the pyramid, thus reducing my brains blood weight.
 Oh, and having a set of bubbles already defined for a given product doesn't restrict you from coming up with new ones when it can help.
 
 ##Conclusion
 
 Thinking about nested systems as independent layers can help you discover a new topic by giving you concrete cases.
-However, you may quickly realize that these hardoded layers need to evolve to match you context.  
+However, you may quickly realize that these hardcoded layers need to evolve to match you context.  
 When you can generalize a categorization, you can reason in a unified way about an activity.
 You don't want to merge all nested systems in a single description.
 That would be fractal, and it would be a very simplistic view of the universe.
