@@ -13,14 +13,6 @@ Cyrille Martraire talks about [raising the water line](https://youtu.be/svh_NxbO
 Like code refactoring, it's not easy.
 It supposes you incorporate the different characteristics of layers into a common vocabulary that makes sense.
 
-The agile manifesto, for example, separates:
-- values, that are a given
-- principles, directly derivated from values within the context the authors knew at the time.
-- practises, derivated from principles
-You could go on and on. The thing is, the more you derive rules within a context, the more you become context dependant.
-It appears that the practises already have a hard time standing the test of time, while agile values can still be considered valid in some organization, and even revolutionary in many others.
-You can consider agile values as an abstraction of agile principles. Principles are an instantiation of the values in a given context. You can use the values to reason about the situation in a wider range of contexts. And you need the principles to guide you in your concrete context.
-
 Let's dive into some examples.
 
 ##Backlog items
@@ -71,12 +63,12 @@ This tradeoff allows you to run tests within a range of values for each of the a
 In the multidimensional space of tests properties, you get a bubble, corresponding to a set of practises.
 If you generalize this, you will get one bubble for each test category of each module.
 
-For example, for some tests, you may mock/stub/fake this or that library. For other tests, you may prefer using their real implementations.
-For this feature, you want to smoke test the end-to-end plumbing, while randomly generating edge cases at 5000 tests per second, by testing one independent sub-sub domain library.
+For example, for some tests requiring speed, you may mock/stub/fake this or that library. For other realist tests, you may prefer using their real implementations.
+For this feature, you may want to smoke test the end-to-end plumbing for realism, while randomly generating edge cases at 5000 tests per second, by testing one independent sub-sub domain library, for coverage, reliability, and explainability.
 It depends.
 
 In a simple system, you might be able to call bubbles of practises unit, integration, system, service, UI, or end-to-end tests, in a way that makes sense to you across all your modules.
-In more complex systems (for example a polyglot one), what you call a unit test is totally different from one module to the other.
+In more complex systems (for example polyglot ones), what you call a unit test is totally different from one module to the other.
 
 In addition, like all systems, architecture is nested.
 The integration testing of a system is the unit testing of a higher level one.
@@ -88,25 +80,31 @@ Still, some people tested it.
 At the hardware level, you might even consider they ran integration tests on it, embedding CPU level cache invalidation and so on.
 And you probably test it indirectly, either by integration tests, or what you naively call unit tests.
 
-If you label layers of testing differently, you will need to:
-- Enumerate different properties for each layer.
-- Have different sets of practises and tools for each layer.
-- Come up with one category per layer you encounter.
-But you don't know how many layers of testing you will need to come up with.
+If you label layers of testing differently, you will need to which properties you want to optimize for, and which practises to use, for each layer.
+You don't know how many layers of testing you will need to come up with.
 You'll discover that along the way.
-And anyway, the different categories of testing you will come up with are not even hierarchical layers, but a graph of bubbles more or less related by common properties, tools, or practises.
+And anyway, the different categories of testing you will come up with are not even hierarchical layers, but a set of bubbles more or less related by properties, tools, or practises.
 
 I prefer sticking to the fuzzy notion of bubbles of properties, tools, and practises.
 I adapt this concept to each context, by searching, naming, and describing bubbles.
 It prevents me from bending reality to fit the pyramid, thus reducing my brains blood weight.
 Oh, and having a set of bubbles already defined for a given product doesn't restrict you from coming up with new ones when it can help.
 
+##Agile manifesto
+
+The agile manifesto separates:
+- Values, that are a given.
+- Principles, directly derivated from values within the context the authors knew at the time.
+- Practises, derivated from principles.
+You could go on and on. The thing is, the more you derive rules within a context, the more you become context dependant.
+It appears that the practises already have a hard time standing the test of time, while agile values can still be considered valid in some organization, and even revolutionary in many others.
+You can consider agile values as an abstraction of agile principles. Principles are an instantiation of the values in a given context. You can use the values to reason about the situation in a wider range of contexts. And you need the principles to guide you in your concrete context.
+
 ##Conclusion
 
-Thinking about nested systems as independent layers can help you discover a new topic by giving you concrete cases.
-However, you may quickly realize that these hardcoded layers need to evolve to match you context.  
-When you can generalize a categorization, you can reason in a unified way about an activity.
-You don't want to merge all nested systems in a single description.
-That would be fractal, and it would be a very simplistic view of the universe.
-You want to make your life easier, having a common ground at a high level, while being able to zoom in when required.
-Abstracting a set of categories decreases you brains blood weight.
+When you discover a topic, seeing it as a set of hardcoded layers helps you discover it.
+When you need to apply your understanding of a similar system to another context, you need to adapt this model, by factoring in your various experience.
+Abstracting what a layer is in a more generic definition helps factoring in your various experience in a single model.
+It helps thinking about similar but different nested systems in a similar way, from a helicopter view.
+When needed, it allows you to look at each layer in a way that is specific to the context.
+By allowing you to navigate between levels of abstraction with a level of complexity that fits in your head, abstracting layers decreases you brains blood weight.
