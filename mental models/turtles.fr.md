@@ -65,7 +65,7 @@ Si vous généralisez ceci, vous obtenez une bulle pour chaque couche de chaque 
 
 Par exemple, pour des tests qui demandent de la rapidité, vous pouvez décider de mocker/stubber/faker/... telle ou telle librairie. Alors que pour d'autres qui demandent du réalisme, vous pouvez préférer utiliser sa véritable implémentation.
 Pour telle fonctionnalité, pour pouvez chercher le réalisme en vous limitant à un smoke test pour vérifier la plomberie, tout en cherchant la couverture, la fiabilité, et l'explicabilité, en générant 5000 test par seconde pour les cas aux limites, et en ne testant que la sous-sous librairie métier.
-Ca dépend.
+Ça dépend.
 
 Dans un système simple, vous pourrez sûrement appeler une bulle tests unitaire, d'intégration, système, IHM, ou de bout en bout, de manière cohérente pour l'ensemble de vos modules.
 Dans des systèmes plus complexe (par exemple polyglottes), ce que vous appelez test unitaire sera totalement différent d'un module à l'autre.
@@ -87,7 +87,7 @@ Et de toute façon, ces différentes catégories ne sont même pas des couches h
 
 Pour toutes ces raisons, je préfère rester sur la notion floue de bulles de propriétés, outils, et pratiques.
 J'adapte ce concept à chaque contexte, en recherchant, nommant, et décrivant, ces bulles.
-Ca m'évite de devoir tordre la réalité pour la faire rentrer dans la pyramide, et ça réduit donc le poids du sang dans mon cerveau.
+Ça m'évite de devoir tordre la réalité pour la faire rentrer dans la pyramide, et ça réduit donc le poids du sang dans mon cerveau.
 Oh, et avoir un jeu de bulles définies pour un produit donné ne vous empêche pas d'en définir de nouvelles, si ça peut aider.
 
 ##Manifeste agile
@@ -106,7 +106,7 @@ On peut utiliser les valeurs pour penser une situation avec un large point de vu
 Découvrir un sujet en le voyant comme un jeu de couches hard-codées, peut vous aider à le découvrir.
 Quand vous avez besoin d'adapter votre compréhension d'un tel système à un autre contexte, vous avez besoin d'adapter votre modèle en y factorisant vos différentes expériences.
 Abstraire les couches de ce système dans une définition plus générique permet de factoriser vos expériences dans un même modèle.
-Ca permet de réfléchir d'un point de vue général à des systèmes similaires bien que différents.
+Ça permet de réfléchir d'un point de vue général à des systèmes similaires bien que différents.
 En cas de besoin, ça permet de voir chaque couche d'une manière spécifique au contexte.
-Ca vous permet de naviguer entre les niveaux d'abstraction avec un niveau de complexité qui tient dans la tête.
-Ca permet ainsi de contenir le poids du sang dans votre cerveau.
+Ça vous permet de naviguer entre les niveaux d'abstraction avec un niveau de complexité qui tient dans la tête.
+Ça permet ainsi de contenir le poids du sang dans votre cerveau.
