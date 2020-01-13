@@ -1,6 +1,6 @@
 #Brains blood weight
 
-I recently found a view of the world that felt more relaxing.
+I recently found a point of view on science that felt more relaxing.
 Saying science **explains** the universe always felt wrong, because when I thought that, I always had an example where I wanted to ask another why.
 Take gravity for example. Saying we fall down because masses attract each other is OK... but why FFS?
 And now you're telling me that big events in the universe bend gravity?
@@ -26,7 +26,7 @@ I spent years understanding eath of them.
 Both are difficult. Both were useful to me, at least to help me adapt my view of the world.
 However, scrum now feels like trying to horseshoe reality into an arbitrary framework.
 Lean, on the other hand, feels like it better encompasses the uncertainty and diversity of situations, yet giving guidelines to better adapt to these situations.
-I can feel my brains firing less "feels akward" alerts when using lean, thus decreasing the blood weight in my head.
+I can feel my brains firing less "feels awkward" alerts when using lean, thus decreasing the blood weight in my head.
 
 ##Unlearning
 
@@ -45,7 +45,7 @@ This is what a mental model is: a simplification of the world. That is why [all 
 Simplifying your existing models to fit your new view is unlearning. It is necessary, it is a continuous process, and it feels good by decreasing your brains blood weight.
 
 Your mental models are often based on someone else's mental model, and you often refer to them using the same name, even though you might have a different understanding of the same concept.
-For example, my understanding of cynefin is different than [Dave Snowden's](https://www.youtube.com/watch?v=N7oz366X0-8) or [Liz Keogh's](https://lizkeogh.com/cynefin-for-everyone/). Still, we're using the same word.
+For example, my understanding of cynefin is probably different than [Dave Snowden's](https://www.youtube.com/watch?v=N7oz366X0-8) or [Liz Keogh's](https://lizkeogh.com/cynefin-for-everyone/). Still, we're using the same word.
 If you view your comprehension of a model as a simplistic one-dimensional value, you can consider that I understand a lot less of cynefin than Dave Snowden. You wouldn't take much risk.
 You can thus consider I'm on my way to understanding cynefin.
 During this process, I adapt my existing mental models to fit my new cynefin view of the world.

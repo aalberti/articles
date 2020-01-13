@@ -1,6 +1,6 @@
 #Turtles rule, all the way
 
-Mental models help you take decisions when they fit the reality you're facing.
+Mental models help you take good decisions when they fit the reality you're facing.
 Many models are too simple to match enough situations.
 
 Many models describe nested systems.

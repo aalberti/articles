@@ -1,6 +1,6 @@
 #Les poupées russes sont anonymes
 
-Les modèles mentaux vous aident à prendre des décisions quand ils correspondent à la réalité à laquelle vous avez à faire face.
+Les modèles mentaux vous aident à prendre des bonnes décisions quand ils correspondent à la réalité à laquelle vous avez à faire face.
 Beaucoup de modèles sont trop simplistes pour représenter un panel de situations suffisant.
 
 Un grand nombre de modèles représente des systèmes imbriqués.

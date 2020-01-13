@@ -1,6 +1,6 @@
 #Le poids du sang dans le cerveau
 
-J'ai récemment trouvé un point de vue plus relaxant.
+J'ai récemment trouvé un point de vue plus relaxant sur les sciences.
 Jusque là, je considérais que les sciences expliquent l'univers et ça m'a toujours paru incohérent.
 J'avais toujours en tête un exemple où j'avais envie de demander pourquoi une fois de plus.
 Prenez la gravité par exemple. On tombe parce que les masses s'attirent. Très bien... mais pourquoi, nom de Newton ?
@@ -47,7 +47,7 @@ C'est ce que sont les modèles mentaux: une simplification du monde. C'est pour 
 Simplifier vos modèles existants pour ajouter votre nouveau point de vue est le désapprentissage. C'est nécessaire, c'est un process continu, et ça fait du bien, en diminuant le poids du sang dans le cerveau.
 
 Vos modèles mentaux sont souvent basés sur les modèles de quelqu'un d'autre. Vous vous y référez souvent en utilisant le même mot, même si vous en avez une compréhension différente.
-Par exemple, ma compréhension de cynefin est différente de [celle de Dave Snowden](https://www.youtube.com/watch?v=N7oz366X0-8) ou [de Liz Keogh](https://lizkeogh.com/cynefin-for-everyone/). Et pourtant, nous utilisons le même mot.
+Par exemple, ma compréhension de cynefin est probablement différente de [celle de Dave Snowden](https://www.youtube.com/watch?v=N7oz366X0-8) ou [de Liz Keogh](https://lizkeogh.com/cynefin-for-everyone/). Et pourtant, nous utilisons le même mot.
 Si vous voyez votre compréhension d'un modèle comme une simpliste valeur mono-dimensionnelle, alors vous pouvez considérer que je comprends beaucoup moins bien cynefin que Dave Snowden. Vous prendriez peu de risque.
 Vous pouvez ainsi considérer que je suis en cours de compréhension de cynefin.
 Dans ce processus, j'adapte mes modèles mentaux existants, pour que mon nouveau point de vue du monde, apporté par cynefin, ait du sens.
