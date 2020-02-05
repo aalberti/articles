@@ -1,8 +1,12 @@
-C'est difficile de faire des prédictions, surtout dans l'avenir. Et pourtant, tout le monde en veut.
+C'est difficile de faire des prédictions, surtout dans l'avenir.
+Et pourtant, tout le monde en veut.
+En toute logique, vous avez besoin d'estimer les dates de sortie de très peu de fonctionnalités.
+Mais puisqu'il faut souvent tout estimer par habitude, autant le faire rapidement.
+La vie est trop courte pour gâcher votre jeunesse en divination.
 
 Chez un précédent employeur, nous réussissions à faire de bonnes prédictions, de manière efficiente et efficace.
 Il nous fallait en effet 2 ou 3 heures pour prédire plusieurs mois de release pour chaque équipe.
-Et nos prédictions étaient plutôt bonnes, en comparaison des nombreuses organisations que j'ai connues, où les prédictions sont uniquement dérivées d'estimations de coûts. Pour faire ces prévisions, nous nous basions autant que possible sur l'historique de ce que nous avions fait par le passé.
+Et nos prédictions étaient plutôt bonnes, en comparaison des nombreuses organisations que j'ai connues, où les prédictions sont uniquement dérivées d'estimations de coûts. Pour faire ces prévisions, nous nous basions autant que possible sur ce que nous avions fait par le passé.
 
 Commençons par le contexte qui fait que cette méthode était possible. Non, commençons par un disclaimer: je n'ai plus les chiffres, il va vous falloir vous satisfaire d'à peu près. Ensuite le contexte: nous étions 3 ou 4 équipes à sortir 2 ou 3 produits sur étagère, plus ou moins liés entre eux.
 
@@ -94,3 +98,20 @@ On l'utilisait d'ailleurs pour les itérations.
 La seule chose à savoir, c'est que le pourcentage d'incertitude doit être calculé indépendamment pour chaque niveau de granularité.
 Savoir qu'on a 75% d'incertitude au niveau de la release ne permet pas de prédire l'incertitude pour une itération, et vice versa.
 On peut avoir plus ou moins d'incertitude à un niveau de granularité plus petit.
+
+#Explication
+
+Pourquoi cette méthode fonctionnait-elle dans notre contexte ?
+
+Tout d'abord, nous sommes tombés sur le bon niveau de granularité.
+Comme tous les systèmes imbriqués, il peut exister un niveau stable, c'est à dire prédictible.
+Dans notre cas, c'était le niveau des epics pour la release, et les tickets pour les itérations.
+Nous avons eu la chance d'avoir de tels niveaux, et de les trouver du premier coup.
+
+Ensuite, nous en avons parlé, parce que les dépendances étaient très peu nombreuses, la charge de travail est ce qui explique la majorité du temps de réalisation.
+C'est rarement le cas. En général, les items passent leur temps dans des queues.
+Dans ce cas, il est inutile d'estimer la charge de travail, même par comparaison.
+Il faut plutôt mesurer les lead times, et estimer les dates de livraison en fonction.
+
+Je pense que le fait d'avoir beaucoup de petits tickets par epic permet aussi de lisser les différences, par la loi des grands nombres.
+A l'échelle des epics, et étant donné les erreurs inhérentes à la divination, les tickets sont considérés comme identiques.
