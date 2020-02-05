@@ -1,9 +1,10 @@
-Pluto Krath: Non non, il est hors de question de revenir là-dessus.
-On avait décidé qu'on n'utiliserait pas de base de données, on ne va pas changer d'avis tous les quatre matins.
-Nadia: On n'avait pas pensé qu'on devrait naviguer dans des données qui ne rentrent pas en mémoire.
+> _Vendredi 21h, en salle de réunion Henri Salvador._  
+> — _Pluto Krath:_ Non non, il est hors de question de revenir là-dessus.
+On avait décidé qu'on n'utiliserait pas de base de données, on ne va pas changer d'avis tous les quatre matins.  
+> — _Nadia:_ On n'avait pas pensé qu'on devrait naviguer dans des données qui ne rentrent pas en mémoire.
 Si on n'a pas de base de données, on va devoir implémenter tout ce dont on a besoin pour faire ça depuis le disque: indexation, requêtes relationnelles, plans d'exécution, sérialisation...
-Si on avait adopté une base sans t'en parler tu ne l'aurais même pas remarqué.
-Pluto Krath: Non, on a décidé qu'on n'utilise que la mémoire et le disque dur, on reste comme ça.
+Si on avait adopté une base sans t'en parler tu ne l'aurais même pas remarqué.  
+> — _Pluto Krath:_ Non, on a décidé qu'on n'utilise que la mémoire et le disque dur, on reste comme ça.
 Implémentez ce dont vous avez besoin.
 
 Je suis régulièrement confronté avec ce genre de non sens.
